@@ -34,7 +34,7 @@ class _WebSocketScreenState extends State<WebSocketScreen> {
   WebSocketChannel? channel;
   List<String> messages = [];
   String status = "offline";
-  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkcml2ZXJfaWQiOiIwYmQ0NjI3ZC1lODc1LTQ1ODYtYTRiYy02ODA3YjFmNjJiYTIiLCJleHAiOiIyMDI1LTAyLTI3VDExOjI2OjE0Ljk1ODg3NzkwMVoifQ.HXHIyw-SDrQFbT0ttzyvqD0Ge1Iej5PgxF9Zxf1g13A";
+  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkcml2ZXJfaWQiOiJjOTI5NTY0ZS1hNWY4LTQ4MjYtYWE0OC01ZDEwY2QxY2VmNTkiLCJleHAiOiIyMDI1LTAyLTI3VDIwOjI5OjA2LjA3MDUxNDc3WiJ9.CUFI2JKJ2vSgl9nKl9Me-LK3S8KdZUeH8dI1V7GSHqU";
   String driverServiceDomain = "http://192.168.63.136:3002";
   String websocketProxyDomain = "ws://192.168.63.136:8080";
   Timer? reconnectTimer;
